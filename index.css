@@ -43,10 +43,11 @@ h1{
 }
 button{
   background-color:#EEC643;
-  width: 50px;
+  width: 60px;
   border: none;
   font-weight: bold;
-  
+  border-radius: 3px;
+  padding: 3px;
 }
 
 /* mobile Responsiveness */
@@ -54,11 +55,13 @@ button{
 
   body{
     background-image: url(./img/cloud.jpg);
+    background-repeat: no-repeat;
     background-size: cover; 
+    height: 100vh;
   }
   .main-container {
     width: 50%;
-    /* position: absolute; */
+    position: absolute;
     bottom: 30%;
     right: 12%;
     padding: 20px;
@@ -78,10 +81,10 @@ button{
   #city{
     width: 60%;
     padding: 8px;
-    font-family: 10px;
+    font-size: 6px;
   }
   #search{
-    padding: 8px;
+    padding: 1px;
   }
 
 }
@@ -90,38 +93,39 @@ button{
 
   body{
     background-image: url(./img/cloud.jpg);
+    background-repeat: no-repeat;
     background-size: cover; 
+    height: 100vh;
   }
   .main-container {
-    width: 70%;
-    /* position: absolute; */
-    bottom: 30%;
-    right: 12%;
+    width: 80%;
+    position: absolute;
+    bottom: 50%;
+    right: 15%;
     padding: 20px;
-    border: 5px solid yellow;
+    border: 3px solid yellow;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.408);  
-  
   }
 
   h1{
+    width: 80%;
     color: #011638;
     font-size: 30px;
     margin-inline-start: 30px;
     margin-inline-end: 30px;
   }
   
-  #city{
-    width: 40%;
+  .city{
+    width: 90%;
     padding: 6px;
-    font-family: 6px;
-    margin: 6px;
+    font-size: 2px;
+    
   }
   #search{
-    padding: 2px;
-    width: 40%;
     left: 40%;
+    padding: 1px;
+    border-radius: 1px;
   }
-
 }
 
